@@ -12,7 +12,9 @@ Read [HANDOFF](HANDOFF.md) for the ordered reading list and current continuation
 
 ## Current task
 
-None active. [FRIDAY-006 — Technical and concise README](completed/FRIDAY-006-readme-focus.md) is **DONE**. The maintainer requested a technical introduction, a final easter egg and more objective wording. Only README and task/state records changed; no capability, validation claim or implementation scope changed. The editorial revision continues the authorized publication workflow.
+None active. [FRIDAY-007 — README project explanation](completed/FRIDAY-007-readme-explanation.md) is **DONE**. The maintainer requested a fuller technical explanation and removal of the Easter egg title prefix. README now explains the project purpose, skill responsibilities, workflow artifacts/HIL, continuity and core/adapters; the final section is titled “Por que FRIDAY?”. Validation limits and implementation scope are unchanged.
+
+[FRIDAY-006 — Technical and concise README](completed/FRIDAY-006-readme-focus.md) is **DONE**. The maintainer requested a technical introduction, a final easter egg and more objective wording. Only README and task/state records changed; no capability, validation claim or implementation scope changed. The editorial revision continues the authorized publication workflow.
 
 [FRIDAY-005 — Initial commit and public repository](completed/FRIDAY-005-github-publication.md) is **DONE**. The maintainer requested public repository creation and commit after receiving FRIDAY-004, then explicitly selected MIT while preserving both upstream notices. The repository, origin, initial commit and main push were created and verified. The first commit contains the complete content package and its documentation; a subsequent documentation commit records closure. No release or CI was created.
 
@@ -29,6 +31,8 @@ Start with [KIT-SPECIFICATION](../research/KIT-SPECIFICATION.md), decisions **HI
 Evidence and details: [upstream study and reuse matrix](../research/UPSTREAM-STUDY.md), [dependencies](../research/DEPENDENCIES.md), [technical profiles](../research/TECHNICAL-PROFILES.md), [installer](../research/INSTALLER-SPECIFICATION.md), [source manifest](../research/source-manifest.json), [npm metadata snapshot](../research/dependency-snapshot.json). The study retrieved 135 selected files from the two frozen upstream revisions, mapped all 16 SDD skills, recorded 12 optional upstream revisions and metadata for 51 npm packages. Retrieval and metadata are not runtime validation or a complete third-party audit.
 
 ## Validation
+
+FRIDAY-007: README diff reviewed against durable sources; relative links/source anchor, final newlines and whitespace checked. Only README and task/state records changed. Application tests/typecheck/build do not apply; no tools or dependencies were added.
 
 FRIDAY-006: full README diff reviewed; relative links and the homage-source anchor verified, whitespace and final newlines checked. Skill content and other files were unchanged. Application tests/typecheck/build do not apply to this Markdown edit.
 

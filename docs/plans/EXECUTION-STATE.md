@@ -12,7 +12,9 @@ Read [HANDOFF](HANDOFF.md) for the ordered reading list and current continuation
 
 ## Current task
 
-None active. [FRIDAY-005 — Initial commit and public repository](completed/FRIDAY-005-github-publication.md) is **DONE**. The maintainer requested public repository creation and commit after receiving FRIDAY-004, then explicitly selected MIT while preserving both upstream notices. The repository, origin, initial commit and main push were created and verified. The first commit contains the complete content package and its documentation; a subsequent documentation commit records closure. No release or CI was created.
+None active. [FRIDAY-006 — Technical and concise README](completed/FRIDAY-006-readme-focus.md) is **DONE**. The maintainer requested a technical introduction, a final easter egg and more objective wording. Only README and task/state records changed; no capability, validation claim or implementation scope changed. The editorial revision continues the authorized publication workflow.
+
+[FRIDAY-005 — Initial commit and public repository](completed/FRIDAY-005-github-publication.md) is **DONE**. The maintainer requested public repository creation and commit after receiving FRIDAY-004, then explicitly selected MIT while preserving both upstream notices. The repository, origin, initial commit and main push were created and verified. The first commit contains the complete content package and its documentation; a subsequent documentation commit records closure. No release or CI was created.
 
 [FRIDAY-004](completed/FRIDAY-004-contracts-and-adapters.md) is **DONE**, accepted for this publication milestone without claiming real host validation. Its original validation/digest remain historical; FRIDAY-005 records the license reconciliation and published 428-file core/adapter package. Client installation/configuration, dependencies and delegation remain excluded.
 
@@ -27,6 +29,8 @@ Start with [KIT-SPECIFICATION](../research/KIT-SPECIFICATION.md), decisions **HI
 Evidence and details: [upstream study and reuse matrix](../research/UPSTREAM-STUDY.md), [dependencies](../research/DEPENDENCIES.md), [technical profiles](../research/TECHNICAL-PROFILES.md), [installer](../research/INSTALLER-SPECIFICATION.md), [source manifest](../research/source-manifest.json), [npm metadata snapshot](../research/dependency-snapshot.json). The study retrieved 135 selected files from the two frozen upstream revisions, mapped all 16 SDD skills, recorded 12 optional upstream revisions and metadata for 51 npm packages. Retrieval and metadata are not runtime validation or a complete third-party audit.
 
 ## Validation
+
+FRIDAY-006: full README diff reviewed; relative links and the homage-source anchor verified, whitespace and final newlines checked. Skill content and other files were unchanged. Application tests/typecheck/build do not apply to this Markdown edit.
 
 FRIDAY-005 publication checks passed: 452 files, 961 relative links, seven parseable JSON files, metadata/parity/resource closure and the unchanged 43-edge acyclic capability graph. Own LICENSE has 39 exact notice copies in core/adapters; upstream notices remain byte-for-byte unchanged. No common credential-pattern candidates or personal paths were found in the publication inventory; this is not an exhaustive security audit. Git cached whitespace checks passed. Public GitHub metadata reports visibility public and license MIT. Initial remote commit SHA and full recursive path/blob tree matched local Git. No host validation, application build or CI was performed.
 

@@ -1,0 +1,20 @@
+# Local operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies and generated outputs
+node_modules/
+dist/
+coverage/
+.cache/
+*.tsbuildinfo
+
+# Local logs
+*.log

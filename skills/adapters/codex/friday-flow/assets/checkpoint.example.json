@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generation": 1,
+  "featureId": "example-change",
+  "level": null,
+  "phase": "triage",
+  "status": "waiting_hil",
+  "objective": "Escolher o nível de processo para o pedido observado.",
+  "sources": [],
+  "approvedSources": [],
+  "pendingHil": {
+    "gate": "HIL 0",
+    "question": "Qual nível deve ser usado para este pedido?",
+    "scope": "example-change"
+  },
+  "blockers": [],
+  "reviewStatus": null,
+  "correctionRound": 0,
+  "roundsWithoutProgress": 0,
+  "base": null,
+  "limitations": [
+    "Exemplo documental; não é estado real, schema ou helper.",
+    "Sem Git/HEAD neste cenário; fontes ainda não foram registradas."
+  ],
+  "nextAction": {
+    "kind": "wait",
+    "instruction": "Aguardar escolha humana antes de avançar.",
+    "read": []
+  }
+}

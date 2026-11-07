@@ -1,0 +1,785 @@
+{
+  "consultedOn": "2026-11-07",
+  "method": "Read-only GitHub connector; selected source files, not complete repository audits. Mutable optional upstream revisions do not replace the frozen comparison bases.",
+  "bases": [
+    {
+      "repository": "ColibriAgile/agents-instructions",
+      "revision": "9c8ca3b1baca119aa2c2f6ded46454530d3e587a",
+      "files": [
+        {
+          "path": "LICENSE",
+          "gitBlobSha": "5cc1c2222a094dcd869e4c13598c367e1b88c887",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/LICENSE"
+        },
+        {
+          "path": "SKILLS/commit/SKILL.md",
+          "gitBlobSha": "7b9fe7161e91b9f8d7d9b5158fb69bfb2696c729",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/commit/SKILL.md"
+        },
+        {
+          "path": "SKILLS/grilling/SKILL.md",
+          "gitBlobSha": "3cba71cee02521e382d812ad59b442be00cf68d8",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/grilling/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-criar-prd/SKILL.md",
+          "gitBlobSha": "1d69c41eeffbf85348a06a681f90d1aa913bdbe9",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-criar-prd/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-criar-prd/assets/prd.template.md",
+          "gitBlobSha": "0bd83281b88eef448b1e372a776ef80d76dab988",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-criar-prd/assets/prd.template.md"
+        },
+        {
+          "path": "SKILLS/sdd-criar-techspec/SKILL.md",
+          "gitBlobSha": "4615a02d9149f93834401d43b8c41234b075903d",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-criar-techspec/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-criar-techspec/assets/techspec.template.md",
+          "gitBlobSha": "55e77467fc4925159e60a8d799e77357d06cf044",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-criar-techspec/assets/techspec.template.md"
+        },
+        {
+          "path": "SKILLS/sdd-criar-techspec/references/dotnet.md",
+          "gitBlobSha": "99acfeadf90f264e5b852e7751350a34b41af925",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-criar-techspec/references/dotnet.md"
+        },
+        {
+          "path": "SKILLS/sdd-criar-techspec/references/qualidade-dotnet.md",
+          "gitBlobSha": "e0ea712cbad81710a4fafc63dfa42fc138a19f77",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-criar-techspec/references/qualidade-dotnet.md"
+        },
+        {
+          "path": "SKILLS/sdd-criar-techspec/references/refatoracao-preparatoria.md",
+          "gitBlobSha": "ff62b62d51d6e852993ecb3774c4c7770ee82125",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-criar-techspec/references/refatoracao-preparatoria.md"
+        },
+        {
+          "path": "SKILLS/sdd-executar-correcoes/SKILL.md",
+          "gitBlobSha": "64053541e4d0927cb247985d785a80fff6c97967",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-executar-correcoes/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-executar-task/SKILL.md",
+          "gitBlobSha": "6909387fdc666d10ed4882ceebe4fc20930cf164",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-executar-task/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-explorar-conceito/SKILL.md",
+          "gitBlobSha": "1293f8104266b873f1c1e6b94d3675b0c007b115",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-explorar-conceito/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-explorar-conceito/assets/brief.template.md",
+          "gitBlobSha": "bd49bd413037277bcfec283bdfd2b8d90dd18f35",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-explorar-conceito/assets/brief.template.md"
+        },
+        {
+          "path": "SKILLS/sdd-explorar-conceito/references/lentes-conceito.md",
+          "gitBlobSha": "ffed4e45fd328f0d214a5a91b636d5730429017b",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-explorar-conceito/references/lentes-conceito.md"
+        },
+        {
+          "path": "SKILLS/sdd-explorar-conceito/references/postura-elefante.md",
+          "gitBlobSha": "7afb888666f369274c8cb9ce404c52196faa0bce",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-explorar-conceito/references/postura-elefante.md"
+        },
+        {
+          "path": "SKILLS/sdd-explorar-conceito/references/reconciliacao-brief.md",
+          "gitBlobSha": "cc8d922d146e089ffa7e4dcd2df193c38ae05c8e",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-explorar-conceito/references/reconciliacao-brief.md"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-fluxo/SKILL.md",
+          "gitBlobSha": "2b155e01a9c89000c70812de265e65414610f8bc",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-fluxo/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-fluxo/assets/checkpoint.template.json",
+          "gitBlobSha": "8b4e8cf20df3421a313f5db4e88a22ff91466615",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-fluxo/assets/checkpoint.template.json"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-fluxo/references/delegacao.md",
+          "gitBlobSha": "0154ace485496875a3c84201a5e7c9747c268a34",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-fluxo/references/delegacao.md"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-fluxo/references/estado-hil.md",
+          "gitBlobSha": "01b39bee4f0d5fd0eb20d11b560c9942bdb87d33",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-fluxo/references/estado-hil.md"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-fluxo/references/modo-autonomo.md",
+          "gitBlobSha": "f1ca94f960f93c45f21a2b247b1e0bca4df790d2",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-fluxo/references/modo-autonomo.md"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-prds/SKILL.md",
+          "gitBlobSha": "584c593cfc8525d63fb4f82b4436b0ad30d2d5d3",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-prds/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-tasks/SKILL.md",
+          "gitBlobSha": "662be8dae4167358b36562c54874c1c881bcf481",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-tasks/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-tasks/references/continuidade-sessao.md",
+          "gitBlobSha": "d153d3f0632f695be71e5a230ab2f8b58857e67f",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-tasks/references/continuidade-sessao.md"
+        },
+        {
+          "path": "SKILLS/sdd-orquestrar-tasks/references/relatorio-progresso.md",
+          "gitBlobSha": "feaa958a10d8990bbdbf5dc39a51f3d542bbff8e",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-orquestrar-tasks/references/relatorio-progresso.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-auditoria/SKILL.md",
+          "gitBlobSha": "2d49248bc5c141ccdd7cff92523217b8b2357578",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-auditoria/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-auditoria/assets/destinos.template.md",
+          "gitBlobSha": "aaae7535e2b2b9069df1b1aecd3b6f76289a6293",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-auditoria/assets/destinos.template.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-correcoes/SKILL.md",
+          "gitBlobSha": "0af12c9c0fee26160a9be865f2ac76898bc48907",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-correcoes/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-correcoes/references/TEMPLATE_TASK.md",
+          "gitBlobSha": "ff10c521c3a9f914b7e5952d645f648b7b6ffacc",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-correcoes/references/TEMPLATE_TASK.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-refatoracao/SKILL.md",
+          "gitBlobSha": "f2559c67ae96ca86f545226306116b7ab823cef7",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-refatoracao/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-refatoracao/assets/TEMPLATE_PRD_REFACTOR.md",
+          "gitBlobSha": "a98c826aea88aa85baf9a04fdb3b1f2c5b0e0289",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-refatoracao/assets/TEMPLATE_PRD_REFACTOR.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-refatoracao/assets/TEMPLATE_TECHSPEC_REFACTOR.md",
+          "gitBlobSha": "d711a4d1fac6277584099371e1218f6df5951c2b",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-refatoracao/assets/TEMPLATE_TECHSPEC_REFACTOR.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-refatoracao/references/winforms-devexpress.md",
+          "gitBlobSha": "5cf482944a8130fce1d6a00a67094290d81dc92b",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-refatoracao/references/winforms-devexpress.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-tasks/SKILL.md",
+          "gitBlobSha": "bec28c243abbc4e0c517ac2ba0b6f8572cc0f1a2",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-tasks/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-tasks/assets/task.template.md",
+          "gitBlobSha": "fbd3c72ffc39d1baaf6a708045af23717b56ff11",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-tasks/assets/task.template.md"
+        },
+        {
+          "path": "SKILLS/sdd-planejar-tasks/assets/tasks.template.md",
+          "gitBlobSha": "1d55306b3558522256f9eb3add2ec426ccb867ea",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-planejar-tasks/assets/tasks.template.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-codigo/SKILL.md",
+          "gitBlobSha": "ff803c74f0d9a0294f215589eafd2904c7966add",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-codigo/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-codigo/references/TEMPLATE.md",
+          "gitBlobSha": "f6f3591d001527460b37aa7daa030ea719ae662e",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-codigo/references/TEMPLATE.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-codigo/references/revisao-delegada.md",
+          "gitBlobSha": "987edad6d517231fe009c7497ab4ebcd4b209df3",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-codigo/references/revisao-delegada.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/SKILL.md",
+          "gitBlobSha": "223eabc826110837ad4426489b393a50f6d68a8c",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/assets/designreview.template.md",
+          "gitBlobSha": "44ca8ffffac6419d909b80af29f6916882aba080",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/assets/designreview.template.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/references/contrato-goldfish.md",
+          "gitBlobSha": "a4bdc5ee4f5fdac80a51fb7e7d3a5c0d87a28c1c",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/references/contrato-goldfish.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/references/goldfish-codigo.md",
+          "gitBlobSha": "dd85879da41dbb9c2db8247f393ee19497039c83",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/references/goldfish-codigo.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/references/goldfish-compreensao.md",
+          "gitBlobSha": "757f75ba2e1b4b191463de9b129e3b537ff677ea",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/references/goldfish-compreensao.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/references/goldfish-critico.md",
+          "gitBlobSha": "fc327552b41762cc7dd5f4b38228a759a9741492",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/references/goldfish-critico.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/references/goldfish-prontidao.md",
+          "gitBlobSha": "a6ce11d65ba3f2f1bab525a6414bde360cf92557",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/references/goldfish-prontidao.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/references/goldfish-zoom-out.md",
+          "gitBlobSha": "e6d316bae1ebd9b1e746f4a87fc83c171b565806",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/references/goldfish-zoom-out.md"
+        },
+        {
+          "path": "SKILLS/sdd-revisar-design/references/resolucao.md",
+          "gitBlobSha": "196fdd6d617c4daf848a4c59f2fee459e52732da",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-revisar-design/references/resolucao.md"
+        },
+        {
+          "path": "SKILLS/sdd-snapshot/SKILL.md",
+          "gitBlobSha": "557afb1e40cd4311b92f23559b6360b4fae2256d",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-snapshot/SKILL.md"
+        },
+        {
+          "path": "SKILLS/sdd-snapshot/assets/snapshot-contexto.template.md",
+          "gitBlobSha": "9daeb640abdc87379a3e5849f56bc96661dfcc23",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-snapshot/assets/snapshot-contexto.template.md"
+        },
+        {
+          "path": "SKILLS/sdd-snapshot/references/carga.md",
+          "gitBlobSha": "7407f5445c0ece6e9e238243288dad562d6c6c2a",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-snapshot/references/carga.md"
+        },
+        {
+          "path": "SKILLS/sdd-triar/SKILL.md",
+          "gitBlobSha": "23ff06bdc064490648d08219e4dd1d88019eed55",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/SKILLS/sdd-triar/SKILL.md"
+        },
+        {
+          "path": "bundles.yaml",
+          "gitBlobSha": "5c7c8f812c909d3b82b4810fb0c97c7249c20d38",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/bundles.yaml"
+        },
+        {
+          "path": "docs/cli-multiplataforma.md",
+          "gitBlobSha": "ea3f78aea2528910621cec7b193bfb47995de450",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/docs/cli-multiplataforma.md"
+        },
+        {
+          "path": "package-lock.json",
+          "gitBlobSha": "ff49eae342e28f06ad2f5fff493b42e1b483fafc",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/package-lock.json"
+        },
+        {
+          "path": "package.json",
+          "gitBlobSha": "02efdc8aec83aa95ecdff3ddb01cf3af3d7ceed7",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/package.json"
+        },
+        {
+          "path": "skill-requirements.yaml",
+          "gitBlobSha": "79992cc766476f0df8d567568090e72d8c60811c",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/skill-requirements.yaml"
+        },
+        {
+          "path": "src/agents.ts",
+          "gitBlobSha": "17c56cb959129b170126bb01e008d5f1df4f9bd1",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/agents.ts"
+        },
+        {
+          "path": "src/backend.ts",
+          "gitBlobSha": "560fe51e529b2996a4e196797add351752fb0636",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/backend.ts"
+        },
+        {
+          "path": "src/catalog.ts",
+          "gitBlobSha": "765922ced0413bcf9ef1cd5634758c85bf28f8e9",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/catalog.ts"
+        },
+        {
+          "path": "src/cli.ts",
+          "gitBlobSha": "277481f663f1430ca752efa1552170e0fb4b163d",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/cli.ts"
+        },
+        {
+          "path": "src/commands.ts",
+          "gitBlobSha": "cf15a49451a1e050c1d4b5dbad48a169e93c01de",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/commands.ts"
+        },
+        {
+          "path": "src/manager.ts",
+          "gitBlobSha": "11052335f187ba17db01560ded1eac85eee62866",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/manager.ts"
+        },
+        {
+          "path": "src/manifest.ts",
+          "gitBlobSha": "bbfa670c999bad0887f1c701e4bd1649feb3674a",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/manifest.ts"
+        },
+        {
+          "path": "src/requirements.ts",
+          "gitBlobSha": "b0ac82628af17aae0d1b7131e579e7aa93882994",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/requirements.ts"
+        },
+        {
+          "path": "src/storage.ts",
+          "gitBlobSha": "63f80e7fce9ff9ed376f23e10fe2f6691e99fe9b",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/storage.ts"
+        },
+        {
+          "path": "src/wizard.ts",
+          "gitBlobSha": "8ae7db06ae730b47ef6c16b68752d6693090f3b4",
+          "url": "https://github.com/ColibriAgile/agents-instructions/blob/9c8ca3b1baca119aa2c2f6ded46454530d3e587a/src/wizard.ts"
+        }
+      ]
+    },
+    {
+      "repository": "soumatheusgomes/vibe-coding-toolkit",
+      "revision": "21b71b68679c11184f49c23168852014bf6dde8b",
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "gitBlobSha": "6dbdf7867a57f7bf0dce77908c18dfaf4e41e69a",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/AGENTS.md"
+        },
+        {
+          "path": "LICENSE",
+          "gitBlobSha": "7f5d72c58ddbd35c6b68244e7e06a4a19438d668",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/LICENSE"
+        },
+        {
+          "path": "docs/00-overview.md",
+          "gitBlobSha": "d3828c3094b7a10e31dc766619abfbffd2fca398",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/00-overview.md"
+        },
+        {
+          "path": "docs/01-installation.md",
+          "gitBlobSha": "7f83faa37165f4295270c2f2988ba354c7f22793",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/01-installation.md"
+        },
+        {
+          "path": "docs/02-playbook-onboarding.md",
+          "gitBlobSha": "896ee9f9d380f08232f3456e50ca79929ad83071",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/02-playbook-onboarding.md"
+        },
+        {
+          "path": "docs/03-environment-setup.md",
+          "gitBlobSha": "24964243c9cfa459805d7c616dacb8be39983138",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/03-environment-setup.md"
+        },
+        {
+          "path": "docs/04-project-bootstrap.md",
+          "gitBlobSha": "c719eb7b1523a94508918188ce408c8342a3b4f1",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/04-project-bootstrap.md"
+        },
+        {
+          "path": "docs/05-toolkit-validation.md",
+          "gitBlobSha": "fd41c4c96ec2330bdd8f8366c305e13fc8295fc5",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/05-toolkit-validation.md"
+        },
+        {
+          "path": "docs/06-project-defaults.md",
+          "gitBlobSha": "de71ee3919b1b54a31a2a33f5a175959b372d2cb",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/06-project-defaults.md"
+        },
+        {
+          "path": "docs/07-harness-evaluation.md",
+          "gitBlobSha": "ea66b3938d3fa76fabf3152a66cee0df2874f7c7",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/07-harness-evaluation.md"
+        },
+        {
+          "path": "docs/08-security-audit.md",
+          "gitBlobSha": "7c0296f7fc94fdb6b41ee11a9b1837de262a084d",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/08-security-audit.md"
+        },
+        {
+          "path": "docs/prompts/01-project-sanitation.md",
+          "gitBlobSha": "e393d7e7faa15b60eb890f191914b3ae3fbe84bd",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/01-project-sanitation.md"
+        },
+        {
+          "path": "docs/prompts/02-eslint-warning-burndown.md",
+          "gitBlobSha": "512ff31dbccfdf5a7ead3549883d34f091fb1a2a",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/02-eslint-warning-burndown.md"
+        },
+        {
+          "path": "docs/prompts/03-multi-agent-code-review.md",
+          "gitBlobSha": "b6697dbb3ace99c5a5c6ca6793fe89398f88a2b6",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/03-multi-agent-code-review.md"
+        },
+        {
+          "path": "docs/prompts/04-brainstorm-to-plan.md",
+          "gitBlobSha": "56709c617a7830526252bfbff5baad68f8966969",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/04-brainstorm-to-plan.md"
+        },
+        {
+          "path": "docs/prompts/05-parallel-wave-dispatch.md",
+          "gitBlobSha": "dab3007f60b854caab98cc320d388483d207bd70",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/05-parallel-wave-dispatch.md"
+        },
+        {
+          "path": "docs/prompts/06-memory-bootstrap.md",
+          "gitBlobSha": "52db0f077978cc3d393cc54eef0a8549a32684b0",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/06-memory-bootstrap.md"
+        },
+        {
+          "path": "docs/prompts/07-eslint-complete-setup.md",
+          "gitBlobSha": "ee56359fede22d050b6fb275039e1cf3e6466c3b",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/07-eslint-complete-setup.md"
+        },
+        {
+          "path": "docs/prompts/08-eslint-quality-gates-install.md",
+          "gitBlobSha": "644b6e1dc722ec3b5cb284daf21932e1d279201c",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/08-eslint-quality-gates-install.md"
+        },
+        {
+          "path": "docs/prompts/09-file-size-refactor.md",
+          "gitBlobSha": "1c91911bcdb9a357134bcc63e798f76ac2c36e0c",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/09-file-size-refactor.md"
+        },
+        {
+          "path": "docs/prompts/10-development-environment-setup.md",
+          "gitBlobSha": "ccc86fefbd7c60b1a359029cfe281fe6bc5d6083",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/10-development-environment-setup.md"
+        },
+        {
+          "path": "docs/prompts/11-next-project-bootstrap.md",
+          "gitBlobSha": "7067b9c85c12acb2ac56c65ad33e29e4a47729f2",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/11-next-project-bootstrap.md"
+        },
+        {
+          "path": "docs/prompts/12-existing-project-setup.md",
+          "gitBlobSha": "88f9e9f23cb5d217e251e84768b70ecfdd719d8f",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/12-existing-project-setup.md"
+        },
+        {
+          "path": "docs/prompts/13-security-review.md",
+          "gitBlobSha": "90d08aec27f2ee6735925fe8cccfa589dddc58a9",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/13-security-review.md"
+        },
+        {
+          "path": "docs/prompts/14-harness-evaluation.md",
+          "gitBlobSha": "eb6e4c41c65204e5b99b209290d7921980070249",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/14-harness-evaluation.md"
+        },
+        {
+          "path": "docs/prompts/15-harness-improvement.md",
+          "gitBlobSha": "3f0ae1a27f7326be2fded646c18825164e39fd26",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/15-harness-improvement.md"
+        },
+        {
+          "path": "docs/prompts/16-security-audit.md",
+          "gitBlobSha": "2a4a43ae9ac165d646ded99bd410ce35e179a982",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/16-security-audit.md"
+        },
+        {
+          "path": "docs/prompts/README.md",
+          "gitBlobSha": "9573689656b1b10a3c4bcdc8252be66622eb913e",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/prompts/README.md"
+        },
+        {
+          "path": "docs/tools/01-superpowers.md",
+          "gitBlobSha": "37a95b9ba31e7eda295801e4a0c78499fdc7579f",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/01-superpowers.md"
+        },
+        {
+          "path": "docs/tools/02-subagent-orchestration.md",
+          "gitBlobSha": "c428922955a9c5f1a8dc8e8a29285cb47a7d0425",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/02-subagent-orchestration.md"
+        },
+        {
+          "path": "docs/tools/03-rtk-token-proxy.md",
+          "gitBlobSha": "614d6b51d0bcd59cb8a32892c224326488b715da",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/03-rtk-token-proxy.md"
+        },
+        {
+          "path": "docs/tools/04-ponytail.md",
+          "gitBlobSha": "213acd34c836a545cca2f916ac53f56f8ca01ae7",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/04-ponytail.md"
+        },
+        {
+          "path": "docs/tools/05-caveman.md",
+          "gitBlobSha": "aae4bb8dbb8ac7c305c3ba8c28b91d07751db16d",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/05-caveman.md"
+        },
+        {
+          "path": "docs/tools/06-eslint-biome-quality-gates.md",
+          "gitBlobSha": "0cb1964664432fd27f1d78bc8c96eca9d247e5e0",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/06-eslint-biome-quality-gates.md"
+        },
+        {
+          "path": "docs/tools/07-graphify.md",
+          "gitBlobSha": "535b8d5238875db80629d8ea84143ac79b20083b",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/07-graphify.md"
+        },
+        {
+          "path": "docs/tools/08-obsidian-memory.md",
+          "gitBlobSha": "7273d70898900971fe2fb6ccdde57a777c43ad2e",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/08-obsidian-memory.md"
+        },
+        {
+          "path": "docs/tools/09-claude-memory-system.md",
+          "gitBlobSha": "ea7063e9706515ac862026aa1a70701e5aa52bfc",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/09-claude-memory-system.md"
+        },
+        {
+          "path": "docs/tools/10-hooks-best-practices.md",
+          "gitBlobSha": "2dec6727224623b1136361b85fc564a94e6babf1",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/10-hooks-best-practices.md"
+        },
+        {
+          "path": "docs/tools/11-agent-browser.md",
+          "gitBlobSha": "530bad6367b5381dcfe1226ac5bc6513eabebb9a",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/11-agent-browser.md"
+        },
+        {
+          "path": "docs/tools/12-context7.md",
+          "gitBlobSha": "bc04bb20d8e6db81cf1f7771ddb2abfd47150ffb",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/12-context7.md"
+        },
+        {
+          "path": "docs/tools/13-anthropics-skills.md",
+          "gitBlobSha": "8ae99371d40b86ef06a93f494318f417cb036a1c",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/13-anthropics-skills.md"
+        },
+        {
+          "path": "docs/tools/14-chrome-devtools-mcp.md",
+          "gitBlobSha": "db49e5733a6521c6104b3a7c3f529bd5fd81e37e",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/14-chrome-devtools-mcp.md"
+        },
+        {
+          "path": "docs/tools/15-codex-workflow.md",
+          "gitBlobSha": "d899a50d688aaecb6eae97563b2c21c1e9f94abb",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/15-codex-workflow.md"
+        },
+        {
+          "path": "docs/tools/16-vercel-skills.md",
+          "gitBlobSha": "330118ea45ba9bd797ff11c95f922bda53dabb03",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/16-vercel-skills.md"
+        },
+        {
+          "path": "docs/tools/17-nextjs-runtime-and-performance.md",
+          "gitBlobSha": "d4049c9b99b1b4885b649d33fdb754f5b0854ed6",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/17-nextjs-runtime-and-performance.md"
+        },
+        {
+          "path": "docs/tools/18-postgresql-skills.md",
+          "gitBlobSha": "98cf31e0e9894fc7f0f185012a974516fe400798",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/18-postgresql-skills.md"
+        },
+        {
+          "path": "docs/tools/19-github-ci-repair.md",
+          "gitBlobSha": "eeb6e81e09b527fa45c557856fcae64799c748b0",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/19-github-ci-repair.md"
+        },
+        {
+          "path": "docs/tools/20-security-review.md",
+          "gitBlobSha": "f806aa9c5f88f6e7d7c2b2f18195b1d9136e7bea",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/20-security-review.md"
+        },
+        {
+          "path": "docs/tools/21-shadcn-ui.md",
+          "gitBlobSha": "384b902abe8d3187f40f28a2618a0fc292f5b3f1",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/21-shadcn-ui.md"
+        },
+        {
+          "path": "docs/tools/22-sentry-mcp.md",
+          "gitBlobSha": "ee0e34a4eb4cbf74ac196b48f146491c012f2673",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/22-sentry-mcp.md"
+        },
+        {
+          "path": "docs/tools/23-harness2.md",
+          "gitBlobSha": "8c49eaf2553fc059e5e3c6b3a2414be235e135a2",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/23-harness2.md"
+        },
+        {
+          "path": "docs/tools/README.md",
+          "gitBlobSha": "aa941dd6ce51af06a56a395edef779d98c6d26e5",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/docs/tools/README.md"
+        },
+        {
+          "path": "templates/AGENTS.md.template",
+          "gitBlobSha": "da3284b7ab57f2f5e4ced3d47c20a9b6d8e0a261",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/AGENTS.md.template"
+        },
+        {
+          "path": "templates/CLAUDE.md.template",
+          "gitBlobSha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/CLAUDE.md.template"
+        },
+        {
+          "path": "templates/environment-manifest.json.example",
+          "gitBlobSha": "1e39ef89d7d7c5e27f508daf658f9d355d06645f",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/environment-manifest.json.example"
+        },
+        {
+          "path": "templates/product.md.template",
+          "gitBlobSha": "9a1a06d2f19207f117b5059e3150a323674148db",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/product.md.template"
+        },
+        {
+          "path": "templates/project-docs/README.md.template",
+          "gitBlobSha": "88a31da2ac45e30bab7c2891a59ca8bf63c43e8e",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/project-docs/README.md.template"
+        },
+        {
+          "path": "templates/project-docs/architecture.md.template",
+          "gitBlobSha": "0a8ef194c2c7eedab47495bff5257689b7edce4a",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/project-docs/architecture.md.template"
+        },
+        {
+          "path": "templates/project-docs/design.md.template",
+          "gitBlobSha": "7bebcd73a2ae0ecc739b6cc2b715d901adeca131",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/project-docs/design.md.template"
+        },
+        {
+          "path": "templates/project-docs/onboarding.md.template",
+          "gitBlobSha": "2b7a9cf2f5378ba505d09ce4e3182e116b5fe709",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/project-docs/onboarding.md.template"
+        },
+        {
+          "path": "templates/project-docs/quality.md.template",
+          "gitBlobSha": "53a40822975531ae9e66ac05d3f5225dbec7f181",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/project-docs/quality.md.template"
+        },
+        {
+          "path": "templates/project-docs/setup.md.template",
+          "gitBlobSha": "b38b7ba38e7932d60fe87635d3bee1cdac861541",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/project-docs/setup.md.template"
+        },
+        {
+          "path": "templates/project/mcp.json.example",
+          "gitBlobSha": "c5280c5f96d86cf3a83b0110c7229d031b8a1ca5",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/project/mcp.json.example"
+        },
+        {
+          "path": "templates/project/sentry.mcp.json.example",
+          "gitBlobSha": "92c630244b9d00f320dc510cb00e428e053b5365",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/project/sentry.mcp.json.example"
+        },
+        {
+          "path": "templates/security-review.md.template",
+          "gitBlobSha": "00b2aa2904015726f2360149befb17260078dbfd",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/security-review.md.template"
+        },
+        {
+          "path": "templates/settings.json.example",
+          "gitBlobSha": "6f5cc82c09d8d7f02ada57ea726f2aee59f2bf51",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/settings.json.example"
+        },
+        {
+          "path": "templates/task-handoff.md.template",
+          "gitBlobSha": "281da3971f8fc70f004bd31226bc7f2df17f667e",
+          "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit/blob/21b71b68679c11184f49c23168852014bf6dde8b/templates/task-handoff.md.template"
+        }
+      ]
+    }
+  ],
+  "optionalUpstreams": [
+    {
+      "repository": "obra/superpowers",
+      "revision": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": "MIT",
+      "files": ["LICENSE", "README.md", "package.json"]
+    },
+    {
+      "repository": "DietrichGebert/ponytail",
+      "revision": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": "MIT",
+      "files": ["LICENSE", "README.md", "package.json"]
+    },
+    {
+      "repository": "JuliusBrussee/caveman",
+      "revision": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": "Apache-2.0",
+      "files": ["LICENSE", "LICENSE-MIT", "NOTICE", "README.md", "package.json"]
+    },
+    {
+      "repository": "rtk-ai/rtk",
+      "revision": "bd7f87eb6e21a17c47ee3c78f698e81b64d7fee5",
+      "branchAtConsultation": "develop",
+      "rootLicenseMetadata": "Apache-2.0",
+      "files": ["Cargo.toml", "LICENSE", "README.md"]
+    },
+    {
+      "repository": "upstash/context7",
+      "revision": "078c0c731d19eb88d2391b236ab82a127dbabac3",
+      "branchAtConsultation": "master",
+      "rootLicenseMetadata": "MIT",
+      "files": ["LICENSE", "README.md", "package.json"]
+    },
+    {
+      "repository": "Graphify-Labs/graphify",
+      "revision": "16218bfc80d4ca2799734d045039f7ed1a5fa9fb",
+      "branchAtConsultation": "v8",
+      "rootLicenseMetadata": "Apache-2.0",
+      "files": [
+        "LICENSE",
+        "LICENSE-MIT",
+        "NOTICE",
+        "README.md",
+        "pyproject.toml"
+      ]
+    },
+    {
+      "repository": "vercel-labs/skills",
+      "revision": "d3701c11b1101251af14c9d148f026e1a47ebe17",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": "MIT",
+      "files": ["LICENSE", "README.md", "package.json"]
+    },
+    {
+      "repository": "vercel-labs/agent-browser",
+      "revision": "d44f6989bf5e9a9a1c6dd6d97175f8c33b138eca",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": "Apache-2.0",
+      "files": ["LICENSE", "README.md", "package.json"]
+    },
+    {
+      "repository": "ChromeDevTools/chrome-devtools-mcp",
+      "revision": "0b37364dc0a88a804c6d73d3335e776adc7f33c4",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": "Apache-2.0",
+      "files": ["LICENSE", "README.md", "package.json"]
+    },
+    {
+      "repository": "google-research/harness2",
+      "revision": "6868817518876de8fd170c6a8354daca273b6191",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": "Apache-2.0",
+      "files": ["LICENSE", "README.md", "pyproject.toml"]
+    },
+    {
+      "repository": "trailofbits/skills",
+      "revision": "e4dd0bb5b15535f7c5a0834187dffba6ac37e4ff",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": "CC-BY-SA-4.0",
+      "files": ["LICENSE", "README.md"]
+    },
+    {
+      "repository": "anthropics/skills",
+      "revision": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "branchAtConsultation": "main",
+      "rootLicenseMetadata": null,
+      "files": ["README.md"]
+    }
+  ]
+}

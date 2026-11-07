@@ -1,6 +1,6 @@
 # FRIDAY-005 — Primeiro commit e repositório público
 
-> **Status:** IN_PROGRESS
+> **Status:** DONE
 >
 > **Etapa:** Publicação do estado atual do projeto
 
@@ -57,10 +57,10 @@ Repositório público criado e autenticação SSH confirmada como pablohcs7. Ant
 ## Critérios de aceite
 
 - [x] Licença própria escolhida explicitamente e avisos upstream preservados.
-- [ ] Conteúdo e documentação revisados, validados e versionados.
-- [ ] Repositório público correto criado e main enviada sem sobrescrever histórico.
-- [ ] SHA e visibilidade remotos conferidos; árvore local reconciliada.
-- [ ] Registros duráveis atualizados e planos concluídos arquivados conforme resultado real.
+- [x] Conteúdo e documentação revisados, validados e versionados.
+- [x] Repositório público correto criado e main enviada sem sobrescrever histórico.
+- [x] SHA e visibilidade remotos conferidos; árvore local reconciliada.
+- [x] Registros duráveis atualizados e planos concluídos arquivados conforme resultado real.
 
 ## Resultado da execução
 
@@ -74,3 +74,12 @@ Verificações executadas após a reconciliação MIT: 452 arquivos, 961 links r
 Digest do inventário dos 428 arquivos de core/adapters (mesmo método da evidência FRIDAY-004): `9b214bc47ea8d0c836ab93ae8e6597595371e19e7537b9480d89455865fee844`. Contratos, referências de execução, templates e SKILL.md preservados byte a byte em relação à baseline desta tarefa; mudanças do pacote limitadas ao aviso próprio e à reconciliação de licença/proveniência/catálogo. A evidência FRIDAY-004 permanece histórica e conserva seu digest original.
 
 Remote origin configurado por SSH para pablohcs7/FRIDAY; `git ls-remote origin` concluiu sem refs, confirmando destino vazio. Identidade de nome definida somente neste repositório a partir do perfil conectado; e-mail Git existente preservado. Primeiro commit e push seguem autorizados pelo pedido original.
+
+
+### Publicação comprovada
+
+Primeiro commit `14c98e54e0e7cfd19188c9e56588d278adfa9ed2`, mensagem `feat: establish FRIDAY skills kit foundation`, com 452 arquivos e 16.319 linhas adicionadas. `git diff --cached --check` aprovado antes do commit; staged inventory restrito aos caminhos previstos. `git push -u origin main` concluído e tracking configurado, sem força.
+
+`git ls-remote origin refs/heads/main` coincidiu com o SHA local. A API pública do GitHub confirmou repositório público, branch padrão main e licença detectada MIT. A árvore remota recursiva conferida contra `git ls-tree -r HEAD`: mesmos 452 caminhos/blobs. Publicação em https://github.com/pablohcs7/FRIDAY. Sem release, CI ou testes de host; nenhuma configuração global alterada.
+
+Este plano foi concluído e arquivado após comprovar o envio. Os registros de fechamento seguem em commit documental posterior, preservando o commit inicial e sem modificar o pacote de skills. Continuidade: preparar a tarefa concreta de descoberta/fluxo documental nos dois clientes. O pedido de publicação já foi executado; não repetir criação, licença ou aprovação do conteúdo.

@@ -1,6 +1,6 @@
 # Verificação de conteúdo — FRIDAY-004
 
-> 07/11/2026 · Revisão pelo agente autor · Etapa de conteúdo local, sem teste comportamental nos clientes.
+> 07/11/2026 · Revisão pelo agente autor · Evidência histórica da FRIDAY-004, anterior à reconciliação de licença e publicação FRIDAY-005; sem teste comportamental nos clientes.
 
 ## Alvo e limites
 

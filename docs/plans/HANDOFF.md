@@ -2,7 +2,7 @@
 
 > **Checkpoint:** 07/11/2026
 >
-> **Situação:** FRIDAY-004 concluída e aceita para versionamento/publicação. FRIDAY-005 em execução: repositório público criado, MIT escolhida e primeiro commit/push em preparação. Descoberta nos clientes ainda não verificada e CLI inexistente.
+> **Situação:** FRIDAY-004 concluída e aceita para versionamento/publicação. FRIDAY-005 concluída: repositório público criado, MIT escolhida e primeiro commit/push conferidos. Descoberta nos clientes ainda não verificada e CLI inexistente.
 
 ## 1. Retomada
 
@@ -21,23 +21,23 @@ Leia nesta ordem:
 9. [Especificação aprovada](../research/KIT-SPECIFICATION.md), com decisões HIL-003-01 a 07.
 10. [Plano concluído FRIDAY-004](completed/FRIDAY-004-contracts-and-adapters.md), com escopo, arquivos, dependências e critérios da primeira implementação.
 11. [Proveniência](../research/CONTENT-PROVENANCE.md) e [validação FRIDAY-004](../validation/FRIDAY-004-content-checks.md).
-12. [Plano ativo FRIDAY-005](active/FRIDAY-005-github-publication.md), autorização de publicação e licença.
+12. [Plano concluído FRIDAY-005](completed/FRIDAY-005-github-publication.md), autorização de publicação e licença.
 13. Consultar estudo, dependências, perfis e instalador pelos links da especificação, conforme o item em revisão.
 
 Confira Git e arquivos atuais antes de agir. A conversa anterior e caches de ferramentas não são necessários para retomar. Em caso de divergência, reconcilie a evidência atual e as decisões registradas; não sobrescreva mudanças desconhecidas.
 
 ## 2. O que existe
 
-- Repositório Git local inicializado na branch `main`, **sem commit e sem remote** no momento deste checkpoint.
+- Repositório Git na branch `main`, origin SSH para `pablohcs7/FRIDAY`, público e com MIT. Primeiro commit `14c98e54e0e7cfd19188c9e56588d278adfa9ed2` enviado e conferido; registros de fechamento em commit documental posterior.
 - README aprovado, com homenagem à F.R.I.D.A.Y., sigla e curiosidade sobre Robinson Crusoé.
 - AGENTS, gitignore, finalidade de `skills/` e `installer/`, fontes, decisões, template e acompanhamento de tarefas.
 - Estudo e especificação FRIDAY-003 em `docs/research/`: comparação das 16 skills SDD, matriz, inventário, contratos aprovados de 19 skills, perfis e instalador; manifests de pesquisa com 135 arquivos recuperados, 12 upstreams opcionais e metadados de 51 pacotes npm. Essas contagens medem a pesquisa, não integrações testadas.
 - Conteúdo FRIDAY-004: 19 contratos, três referências, 14 templates, catálogo/bundles, 38 entradas autocontidas, proveniência por arquivo e avisos MIT completos. Verificação estática não comprova execução das instruções.
 - Fundação concluída em [FRIDAY-001](completed/FRIDAY-001-repository-foundation.md) e handoff registrado em [FRIDAY-002](completed/FRIDAY-002-session-handoff.md).
 
-Os arquivos aparecem como **não rastreados** porque o primeiro commit não foi criado. São a entrega esperada deste checkpoint, não resíduos a apagar ou motivo para reiniciar a fundação.
+Os arquivos foram versionados e enviados ao GitHub. Inspecione o estado atual antes de trabalhar; mudanças locais posteriores não são resíduos a apagar ou motivo para reiniciar a fundação.
 
-Existem 38 arquivos `SKILL.md` nas árvores de autoria locais. Não há `package.json`, dependências instaladas do FRIDAY, gerador mantido, schema/helper executável de checkpoint, CLI, CI, release ou publicação. Nenhuma skill foi instalada ou executada em cliente real. Os nomes de comandos no documento do instalador descrevem interfaces previstas.
+Existem 38 arquivos `SKILL.md` nas árvores de autoria locais. Não há `package.json`, dependências instaladas do FRIDAY, gerador mantido, schema/helper executável de checkpoint, CLI, CI ou release. Nenhuma skill foi instalada ou executada em cliente real. Os nomes de comandos no documento do instalador descrevem interfaces previstas.
 
 ## 3. Decisões que permanecem válidas
 
@@ -64,7 +64,7 @@ A pesquisa preliminar foi aprofundada na FRIDAY-003. Na FRIDAY-004, 71 arquivos 
 
 Pode consultar revisões mais recentes para documentação e compatibilidade. Registre diferenças em relação à base congelada; não troque silenciosamente o alvo da comparação.
 
-## 5. Próxima ação: concluir publicação autorizada
+## 5. Próxima ação: planejar validação nos clientes
 
 O mantenedor respondeu **“aprovado”** à pergunta de aceite das decisões **HIL-003-01 a 07** em 07/11/2026. O [plano FRIDAY-003](completed/FRIDAY-003-kit-specification.md) foi concluído e arquivado. O [registro de aceite](../research/KIT-SPECIFICATION.md) preserva o escopo e a origem da aprovação. Não repetir esse HIL para conteúdo e escopo inalterados.
 
@@ -74,9 +74,9 @@ Os detalhes e evidências estão no [estudo e matriz](../research/UPSTREAM-STUDY
 
 O pedido de retomada preparou o [plano FRIDAY-004](completed/FRIDAY-004-contracts-and-adapters.md). Em seguida, o mantenedor respondeu literalmente “sim” à pergunta “Autoriza executar a FRIDAY-004 nesse escopo local?”. A autorização foi registrada e aplicada sem ampliar o escopo.
 
-As unidades 004-01 a 004-05 produziram o conteúdo e o pacote de aceite. Após a apresentação, o mantenedor pediu “crie um repositorio publico e faça commit no meu github”. Esse pedido aceita o conteúdo para o marco de versionamento/publicação e autoriza repositório, commit, remote e push na [FRIDAY-005](active/FRIDAY-005-github-publication.md). A FRIDAY-004 foi arquivada como DONE; não repetir seu aceite nem a autorização da publicação.
+As unidades 004-01 a 004-05 produziram o conteúdo e o pacote de aceite. Após a apresentação, o mantenedor pediu “crie um repositorio publico e faça commit no meu github”. Esse pedido aceita o conteúdo para o marco de versionamento/publicação e autoriza repositório, commit, remote e push na [FRIDAY-005](completed/FRIDAY-005-github-publication.md). A FRIDAY-004 foi arquivada como DONE; não repetir seu aceite nem a autorização da publicação.
 
-O mantenedor escolheu “MIT, preservando os avisos das duas bases”. LICENSE e aviso próprio nas saídas foram adicionados; atribuições upstream preservadas. O repositório https://github.com/pablohcs7/FRIDAY foi criado vazio e público; autenticação SSH confirmada como pablohcs7. Próximo passo: validar os arquivos, criar commit e enviar main, conferindo visibilidade e SHA. Depois do marco, preparar plano concreto da validação de descoberta/fluxo documental nos clientes, sem iniciá-la por inferência.
+O mantenedor escolheu “MIT, preservando os avisos das duas bases”. LICENSE e aviso próprio nas saídas foram adicionados; atribuições upstream preservadas. O repositório https://github.com/pablohcs7/FRIDAY foi publicado; autenticação SSH confirmada como pablohcs7. Primeiro commit `14c98e54e0e7cfd19188c9e56588d278adfa9ed2` enviado: SHA e 452 caminhos/blobs remotos conferidos contra o Git local. A API pública confirmou visibilidade pública e MIT. Próximo passo: preparar plano concreto da validação de descoberta/fluxo documental nos clientes, sem iniciá-la por inferência. Não repetir criação ou autorização de publicação.
 
 ## 6. Validação disponível e limitações
 

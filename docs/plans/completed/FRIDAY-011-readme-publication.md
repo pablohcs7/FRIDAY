@@ -1,6 +1,6 @@
 # FRIDAY-011 — Publicação do README visual
 
-> **Status:** IN_PROGRESS
+> **Status:** DONE
 >
 > **Etapa:** Publicação documental
 
@@ -53,13 +53,17 @@ Publicar links para conteúdo somente local ou incluir alterações paralelas pe
 
 ## Critérios de aceite
 
-- [ ] Árvore publicada contém somente o conjunto editorial e links resolvíveis.
-- [ ] Arquivos paralelos preservados sem sobrescrita ou inclusão no commit.
-- [ ] Commit e push concluídos; SHA e conteúdo remoto conferidos.
-- [ ] Resultado/estado registrados e plano arquivado.
+- [x] Árvore publicada contém somente o conjunto editorial e links resolvíveis.
+- [x] Arquivos paralelos preservados sem sobrescrita ou inclusão no commit.
+- [x] Commit e push concluídos; SHA e conteúdo remoto conferidos.
+- [x] Resultado/estado registrados e plano arquivado.
 
 ## Resultado da execução
 
 Preparação: oito arquivos editoriais no index; 87 links/âncoras resolvem contra a árvore exata preparada, incluindo diretórios e a nota HIL. SVG/XML, title/desc, recursos locais, whitespace, novas linhas finais e git diff --cached --check aprovados. Renderizações anteriores preservadas porque as imagens não mudaram nesta tarefa. Diff preparado revisado pelo autor; sem revisão independente.
 
 Links do README ao relatório ainda local passaram a apontar para um resumo público no estado, com amostragem, falha parcial e Claude pendente. Staging seletivo do estado foi feito a partir da revisão publicada e das seções editoriais, preservando o working tree compartilhado. HANDOFF, relatório/evidências/fixtures, plano FRIDAY-008 e mudanças nas skills permanecem fora do index desta publicação. A primeira comparação de hashes detectou escrita concorrente da outra frente, sem restauração ou sobrescrita. A checagem de links/escopo do index foi repetida e aprovada. Commit/push em execução.
+
+Publicação comprovada: commit `5bada2f88ce4512c33bf53ce667f7d22c7879e94`, mensagem `docs: publish visual README and workflow examples`, enviado a origin/main sem força. `git ls-remote` confirmou o mesmo SHA. A API do GitHub retornou árvore completa com 460 blobs, todos os paths/SHAs idênticos a `git ls-tree -r HEAD`. Repositório público/branch main e permissão push conferidos antes do envio. O commit contém somente os oito arquivos editoriais preparados; arquivos paralelos continuam locais. Nenhuma release ou CI criada.
+
+Plano concluído e arquivado após essa verificação. Fechamento documental em commit próprio, limitado ao movimento/resultado deste plano e ao estado editorial selecionado. Sem instalação, dependências, mudanças de runtime ou testes de aplicação; estes não se aplicam à publicação documental.

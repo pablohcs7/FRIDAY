@@ -12,7 +12,7 @@ Read [HANDOFF](HANDOFF.md) for the ordered reading list and current continuation
 
 ## Current task
 
-The README publication is in progress as FRIDAY-011; client validation remains a separate task. [FRIDAY-007 — README project explanation](completed/FRIDAY-007-readme-explanation.md) is **DONE**. The maintainer requested a fuller technical explanation and removal of the Easter egg title prefix. README now explains the project purpose, skill responsibilities, workflow artifacts/HIL, continuity and core/adapters; the final section is titled “Por que FRIDAY?”. Validation limits and implementation scope are unchanged.
+FRIDAY-011 README publication is complete; client validation remains a separate task. [FRIDAY-007 — README project explanation](completed/FRIDAY-007-readme-explanation.md) is **DONE**. The maintainer requested a fuller technical explanation and removal of the Easter egg title prefix. README now explains the project purpose, skill responsibilities, workflow artifacts/HIL, continuity and core/adapters; the final section is titled “Por que FRIDAY?”. Validation limits and implementation scope are unchanged.
 
 [FRIDAY-006 — Technical and concise README](completed/FRIDAY-006-readme-focus.md) is **DONE**. The maintainer requested a technical introduction, a final easter egg and more objective wording. Only README and task/state records changed; no capability, validation claim or implementation scope changed. The editorial revision continues the authorized publication workflow.
 
@@ -76,4 +76,6 @@ A separate Codex documentary pilot has observed native discovery and sampled wor
 
 ## README publication
 
-[FRIDAY-011](active/FRIDAY-011-readme-publication.md) is in progress, explicitly authorized by the maintainer with “pode publicar”. Scope is README, original assets, editorial task records and selected shared-state changes. The separate pilot files and HANDOFF changes remain outside this publication.
+[FRIDAY-011](completed/FRIDAY-011-readme-publication.md) is **DONE**, explicitly authorized by the maintainer with “pode publicar”. Scope is README, original assets, editorial task records and selected shared-state changes. The separate pilot files and HANDOFF changes remain outside this publication.
+
+FRIDAY-011 publication verified: commit 5bada2f88ce4512c33bf53ce667f7d22c7879e94 was pushed to origin/main without force. Remote SHA matched; all 460 remote blob paths/SHAs matched local Git. Eight editorial files were published with 87 valid links/anchors and existing visual QA. Separate client-validation files and HANDOFF/skill changes remain outside this publication. The completed publication plan and this closure are recorded separately; no release, CI or new dependencies.

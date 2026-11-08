@@ -4,7 +4,7 @@
 
 FRIDAY-004 content and FRIDAY-005 publication are complete and archived. The current development state is public at https://github.com/pablohcs7/FRIDAY with MIT selected by the maintainer and both upstream notices preserved. The initial main commit is 14c98e54e0e7cfd19188c9e56588d278adfa9ed2; its remote SHA and all 452 file/blob entries were verified against local Git. Closure documentation is recorded in the subsequent documentation commit. HIL-003 decisions remain valid.
 
-Local skill content now exists: 19 core contracts, three shared references, 14 templates, catalog/bundles, provenance/notices and 19 self-contained entries for each client. No application code, maintained generator, executable checkpoint schema/helper, installer, FRIDAY dependencies, release or CI exists. Skills have not been installed or exercised in real client sessions; static checks do not prove host discovery or behavior. The installer directory remains a purpose document. Research JSON files and checkpoint examples are documentary evidence/material, not executable manifests or lockfiles.
+Local skill content now exists: 19 core contracts, three shared references, 14 templates, catalog/bundles, provenance/notices and 19 self-contained entries for each client. No application code, maintained generator, executable checkpoint schema/helper, installer, FRIDAY dependencies, release or CI exists. A separate Codex pilot has since observed native discovery and sampled documentary behavior; see the client validation status below for limits. Static checks alone do not prove host discovery or behavior. The installer directory remains a purpose document. Research JSON files and checkpoint examples are documentary evidence/material, not executable manifests or lockfiles.
 
 ## Session handoff
 
@@ -12,7 +12,7 @@ Read [HANDOFF](HANDOFF.md) for the ordered reading list and current continuation
 
 ## Current task
 
-None active. [FRIDAY-007 — README project explanation](completed/FRIDAY-007-readme-explanation.md) is **DONE**. The maintainer requested a fuller technical explanation and removal of the Easter egg title prefix. README now explains the project purpose, skill responsibilities, workflow artifacts/HIL, continuity and core/adapters; the final section is titled “Por que FRIDAY?”. Validation limits and implementation scope are unchanged.
+The README publication is in progress as FRIDAY-011; client validation remains a separate task. [FRIDAY-007 — README project explanation](completed/FRIDAY-007-readme-explanation.md) is **DONE**. The maintainer requested a fuller technical explanation and removal of the Easter egg title prefix. README now explains the project purpose, skill responsibilities, workflow artifacts/HIL, continuity and core/adapters; the final section is titled “Por que FRIDAY?”. Validation limits and implementation scope are unchanged.
 
 [FRIDAY-006 — Technical and concise README](completed/FRIDAY-006-readme-focus.md) is **DONE**. The maintainer requested a technical introduction, a final easter egg and more objective wording. Only README and task/state records changed; no capability, validation claim or implementation scope changed. The editorial revision continues the authorized publication workflow.
 
@@ -58,4 +58,22 @@ All previously confirmed decisions in [SOURCES](../research/SOURCES.md) remain v
 
 ## Next action and authorization boundaries
 
-Prepare a concrete task plan for real skill discovery and documentary workflow validation in Codex and Claude Code, following the approved sequence. Publication is already complete; do not recreate the repository or repeat license/content acceptance. Installation of skills/tools, changes to clients, delegation, release or runtime-support claims are not authorized by the publication milestone. Preserve current Git history and existing authorizations; new implementation/testing effects belong to the next concrete task.
+Continue the separate client validation task with its existing authorization and limitations, following the approved sequence. Publication is already complete; do not recreate the repository or repeat license/content acceptance. Installation of skills/tools, changes to clients, delegation, release or runtime-support claims are not authorized by the publication milestone. Preserve current Git history and existing authorizations; new implementation/testing effects belong to the next concrete task.
+
+## Parallel editorial work
+
+[FRIDAY-009 — README scenarios](completed/FRIDAY-009-readme-scenarios.md) and [FRIDAY-010 — Workflow language](completed/FRIDAY-010-readme-workflow-language.md) are **DONE** in their durable task records. They cover the visual README, local SVG assets, scenario examples, workflow wording and HIL footnote. These are separate editorial tasks; their reported checks and limits remain in those plans. FRIDAY-008 did not author, revert, publish or include those changes in its evidence manifest. Preserve their working-tree changes and do not infer application/client validation from the illustrations.
+
+FRIDAY-010 editorial follow-up: the maintainer found the HIL note vague. The revised footnote explains the agent proposal, the required human reply before dependent execution, and a concrete scheduling-without-payments example. It distinguishes product/solution approvals, review and final acceptance while allowing work within valid prior scope. Only the footnote changed in README; continuation indentation, unique reference/definition, whitespace and final newline passed static checks, and the full note diff was reviewed. The task plan was resumed and archived again. Diagrams, prompts, client evidence and contracts were preserved; no commit/push or new dependency.
+
+FRIDAY-010 note marker follow-up completed: two superscript asterisk links now point to the single HIL note anchor, replacing the numeric Markdown footnote. Four HIL diagram labels and its footer also carry the asterisk. Note wording and prompts are preserved. Anchor/marker checks, SVG parsing, whitespace and git diff --check passed; the sips-rendered diagram was visually inspected. Plan resumed and archived again; no contract changes, dependencies, commit or push.
+
+FRIDAY-010 diagram footer follow-up completed: a second line below the HIL description directs readers to the full explanation at the end of README. Existing description and SVG dimensions are preserved. XML and note destination checks passed; the sips render was visually inspected without clipping or overlap, and git diff --check passed. Plan resumed and archived again; no contract changes or publication.
+
+## Client validation status
+
+A separate Codex documentary pilot has observed native discovery and sampled workflow behavior. Eleven cases passed within their observed scope; one checkpoint-preservation obligation partially failed. Claude Code remains untested, and application/profile/platform scenarios are not verified. These results do not establish runtime support for all 19 skills. The detailed pilot report and evidence are being consolidated in a separate task and are not included in this README publication. No full-client acceptance is claimed.
+
+## README publication
+
+[FRIDAY-011](active/FRIDAY-011-readme-publication.md) is in progress, explicitly authorized by the maintainer with “pode publicar”. Scope is README, original assets, editorial task records and selected shared-state changes. The separate pilot files and HANDOFF changes remain outside this publication.

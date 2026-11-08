@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title description">
+  <title id="title">FRIDAY — da ideia ao produto</title>
+  <desc id="description">Kit de skills para Codex e Claude Code. Três entradas: projeto novo, projeto existente e task isolada. Entender, decidir, construir e conferir com contexto preservado.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101c35"/>
+      <stop offset="1" stop-color="#10101f"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 H 0 V 48" fill="none" stroke="#b2c9f4" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="640" rx="28" fill="url(#background)"/>
+  <rect width="1600" height="640" rx="28" fill="url(#grid)"/>
+  <path d="M 72 67 H 138" stroke="#68e0cb" stroke-width="5"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="160" y="77" fill="#b6c6df" font-size="23" letter-spacing="3">SKILLS / CODEX + CLAUDE CODE</text>
+    <text x="66" y="249" fill="#f3f7ff" font-size="142" font-weight="750" letter-spacing="-6">FRIDAY</text>
+    <text x="72" y="330" fill="#68e0cb" font-size="56" font-weight="600" letter-spacing="-1">Da ideia ao produto.</text>
+    <text x="74" y="393" fill="#bccae1" font-size="29">Escopo claro. Decisões registradas.</text>
+    <text x="74" y="435" fill="#bccae1" font-size="29">Evidências para continuar.</text>
+    <g fill="#182b43" stroke="#35536c">
+      <rect x="72" y="516" width="252" height="59" rx="12"/>
+      <rect x="340" y="516" width="297" height="59" rx="12"/>
+      <rect x="653" y="516" width="228" height="59" rx="12"/>
+    </g>
+    <g fill="#e0ecff" font-size="24" text-anchor="middle">
+      <text x="198" y="554">Projeto novo</text>
+      <text x="488" y="554">Projeto existente</text>
+      <text x="767" y="554">Task isolada</text>
+    </g>
+    <path d="M 1010 150 V 493" stroke="#385570" stroke-width="3"/>
+    <g fill="#15243a" stroke="#34516b">
+      <rect x="1050" y="99" width="474" height="96" rx="16"/>
+      <rect x="1050" y="214" width="474" height="96" rx="16"/>
+      <rect x="1050" y="329" width="474" height="96" rx="16"/>
+      <rect x="1050" y="444" width="474" height="96" rx="16"/>
+    </g>
+    <g fill="#68e0cb">
+      <circle cx="1010" cy="147" r="7"/>
+      <circle cx="1010" cy="262" r="7"/>
+      <circle cx="1010" cy="377" r="7"/>
+      <circle cx="1010" cy="492" r="7"/>
+    </g>
+    <g fill="#68e0cb" font-size="23" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+      <text x="1078" y="157">01</text>
+      <text x="1078" y="272">02</text>
+      <text x="1078" y="387">03</text>
+      <text x="1078" y="502">04</text>
+    </g>
+    <g fill="#f3f7ff" font-size="33" font-weight="600">
+      <text x="1140" y="157">Entender</text>
+      <text x="1140" y="272">Decidir</text>
+      <text x="1140" y="387">Construir</text>
+      <text x="1140" y="502">Conferir</text>
+    </g>
+    <text x="1052" y="585" fill="#a7bad5" font-size="23">Você participa das decisões.</text>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="650" viewBox="0 0 1600 650" role="img" aria-labelledby="title description">
+  <title id="title">Como o trabalho avança com o FRIDAY</title>
+  <desc id="description">Entender o pedido e escolher quanto planejar, HIL 0; definir o que construir, HIL 1; planejar e aprovar como fazer, HIL 2; construir e testar; revisar; entregar para avaliação e aceite, HIL 3. Problemas geram correções aprovadas e nova revisão. HIL indica os momentos em que você participa das decisões.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="m 1 1 7 4 -7 4" fill="none" stroke="#7895bc" stroke-width="1.5"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="650" rx="28" fill="#101a2e"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="48" y="66" fill="#f3f7ff" font-size="37" font-weight="650">Como o trabalho avança</text>
+    <text x="48" y="111" fill="#b6c6df" font-size="25">Primeiro entendemos o pedido. Depois combinamos o que fazer e construímos por etapas.</text>
+    <g fill="#192a43" stroke="#3b5477" stroke-width="1.5">
+      <rect x="48" y="165" width="224" height="247" rx="16"/>
+      <rect x="302" y="165" width="224" height="247" rx="16"/>
+      <rect x="556" y="165" width="224" height="247" rx="16"/>
+      <rect x="810" y="165" width="224" height="247" rx="16"/>
+      <rect x="1064" y="165" width="224" height="247" rx="16"/>
+      <rect x="1318" y="165" width="224" height="247" rx="16"/>
+    </g>
+    <g stroke="#7895bc" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M 278 280 H 294"/>
+      <path d="M 532 280 H 548"/>
+      <path d="M 786 280 H 802"/>
+      <path d="M 1040 280 H 1056"/>
+      <path d="M 1294 280 H 1310"/>
+    </g>
+    <g fill="#8ba8d1" font-size="24" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+      <text x="70" y="207">01</text>
+      <text x="324" y="207">02</text>
+      <text x="578" y="207">03</text>
+      <text x="832" y="207">04</text>
+      <text x="1086" y="207">05</text>
+      <text x="1340" y="207">06</text>
+    </g>
+    <g fill="#f3f7ff" font-size="30" font-weight="650">
+      <text x="70" y="257">Entender</text>
+      <text x="324" y="257">Definir</text>
+      <text x="578" y="257">Planejar</text>
+      <text x="832" y="257">Construir</text>
+      <text x="1086" y="257">Revisar</text>
+      <text x="1340" y="257">Entregar</text>
+    </g>
+    <g fill="#bccae1" font-size="22">
+      <text x="70" y="299">O que precisa</text>
+      <text x="70" y="328">ser resolvido?</text>
+      <text x="324" y="299">O que vamos</text>
+      <text x="324" y="328">construir?</text>
+      <text x="578" y="299">Como vamos</text>
+      <text x="578" y="328">fazer?</text>
+      <text x="832" y="299">Implementar</text>
+      <text x="832" y="328">e testar</text>
+      <text x="1086" y="299">Conferir o que</text>
+      <text x="1086" y="328">foi feito</text>
+      <text x="1340" y="299">Você avalia</text>
+      <text x="1340" y="328">e aceita</text>
+    </g>
+    <g fill="#183e42" stroke="#468a81">
+      <rect x="70" y="351" width="103" height="38" rx="9"/>
+      <rect x="324" y="351" width="103" height="38" rx="9"/>
+      <rect x="578" y="351" width="103" height="38" rx="9"/>
+      <rect x="1340" y="351" width="103" height="38" rx="9"/>
+    </g>
+    <g fill="#8af0dc" font-size="22" font-weight="600">
+      <text x="89" y="377">HIL 0*</text>
+      <text x="343" y="377">HIL 1*</text>
+      <text x="597" y="377">HIL 2*</text>
+      <text x="1359" y="377">HIL 3*</text>
+    </g>
+    <text x="48" y="461" fill="#b6c6df" font-size="24">Se houver uma interface, você também confere o visual e os principais usos antes da revisão.</text>
+    <rect x="48" y="493" width="1494" height="72" rx="14" fill="#292741" stroke="#655780"/>
+    <text x="74" y="538" fill="#e0d5f7" font-size="25">Algo precisa mudar? Planejar a correção → você aprova → corrigir → revisar de novo</text>
+    <text x="48" y="600" fill="#b6c6df" font-size="23">* HIL marca suas decisões no processo. Mudanças simples pedem menos etapas; aprovações válidas são mantidas.</text>
+    <text x="48" y="630" fill="#b6c6df" font-size="23">Veja a explicação completa de HIL na nota ao final do README.</text>
+  </g>
+</svg>
